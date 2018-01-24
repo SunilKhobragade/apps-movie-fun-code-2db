@@ -1,0 +1,11 @@
+org/superbiz/moviefun/Application.class
+org/superbiz/moviefun/movies/MoviesBean.class
+org/superbiz/moviefun/movies/Movie.class
+org/superbiz/moviefun/DataBaseConfig.class
+org/superbiz/moviefun/movies/MovieFixtures.class
+org/superbiz/moviefun/albums/Album.class
+org/superbiz/moviefun/HomeController.class
+org/superbiz/moviefun/albums/AlbumsController.class
+org/superbiz/moviefun/ActionServlet.class
+org/superbiz/moviefun/albums/AlbumsBean.class
+org/superbiz/moviefun/albums/AlbumFixtures.class

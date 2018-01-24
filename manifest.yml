@@ -1,0 +1,17 @@
+---
+applications:
+- name: moviefun-2db
+  host: movie-fun-2db-sk
+  memory: 1GB
+  instances: 1
+  path: target/moviefun.war
+  services:
+   - movies-mysql
+   - album-mysql
+  env:
+   MOVIEFUN_DATASOURCES_MOVIES_URL: jdbc:mysql://10.0.16.78:3306/cf_8577c57c_9440_4904_afa3_cc263c5206a6
+   MOVIEFUN_DATASOURCES_MOVIES_USERNAME: hJ1K98z7q0edzXMN
+   MOVIEFUN_DATASOURCES_MOVIES_PASSWORD: sEQboByI5nt5dr7e
+   MOVIEFUN_DATASOURCES_ALBUMS_URL: jdbc:mysql://10.0.16.78:3306/cf_50a60d99_a900_400f_9b68_e1bba5b6993b
+   MOVIEFUN_DATASOURCES_ALBUMS_USERNAME: NpbJb8Sx5oLwX5q6
+   MOVIEFUN_DATASOURCES_ALBUMS_PASSWORD: mYqwETwX85bHFxZH
